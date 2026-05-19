@@ -1,6 +1,6 @@
 NAME:tree
 VERSION:2.1.1
 URL:https://gitlab.com/OldManProgrammer/unix-tree/-/archive/2.1.1/unix-tree-2.1.1.tar.gz
-BUILD:make
-INSTALL:cp tree $PKG_DIR/bin/
+BUILD:./configure --prefix=$PKG_DIR && make -j$(nproc)
+INSTALL:make install
 DEPS:

@@ -1,6 +1,6 @@
 NAME:jq
 VERSION:1.7.1
 URL:https://github.com/jqlang/jq/releases/download/jq-1.7.1/jq-1.7.1.tar.gz
-BUILD:./configure --prefix=$PKG_DIR --with-oniguruma=builtin
+BUILD:./configure --prefix=$PKG_DIR && make -j$(nproc)
 INSTALL:make install
 DEPS:

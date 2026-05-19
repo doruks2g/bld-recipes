@@ -1,6 +1,6 @@
 NAME:cmatrix
 VERSION:2.0
 URL:https://github.com/abishekvashok/cmatrix/archive/refs/tags/v2.0.tar.gz
-BUILD:autoreconf -i && ./configure --prefix=$PKG_DIR
+BUILD:./configure --prefix=$PKG_DIR && make -j$(nproc)
 INSTALL:make install
 DEPS:
