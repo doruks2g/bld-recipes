@@ -1,0 +1,6 @@
+NAME:libpng
+VERSION:1.6.43
+URL:https://github.com/pnggroup/libpng/archive/refs/tags/v1.6.43.tar.gz
+BUILD:./configure --prefix=$PKG_DIR
+INSTALL:make install
+DEPS:

@@ -1,0 +1,6 @@
+NAME:openssl
+VERSION:3.3.0
+URL:https://github.com/openssl/openssl/releases/download/openssl-3.3.0/openssl-3.3.0.tar.gz
+BUILD:./config --prefix=$PKG_DIR --openssldir=$PKG_DIR/ssl
+INSTALL:make install
+DEPS:

@@ -1,0 +1,6 @@
+NAME:libxslt
+VERSION:1.1.39
+URL:https://download.gnome.org/sources/libxslt/1.1/libxslt-1.1.39.tar.xz
+BUILD:./configure --prefix=$PKG_DIR
+INSTALL:make install
+DEPS:

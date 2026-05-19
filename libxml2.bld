@@ -1,0 +1,6 @@
+NAME:libxml2
+VERSION:2.12.6
+URL:https://download.gnome.org/sources/libxml2/2.12/libxml2-2.12.6.tar.xz
+BUILD:./configure --prefix=$PKG_DIR
+INSTALL:make install
+DEPS:

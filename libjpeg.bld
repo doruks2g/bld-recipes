@@ -1,0 +1,6 @@
+NAME:libjpeg
+VERSION:9f
+URL:https://www.ijg.org/files/jpegsrc.v9f.tar.gz
+BUILD:./configure --prefix=$PKG_DIR
+INSTALL:make install
+DEPS:
