@@ -1,0 +1,6 @@
+NAME:make_gnu
+VERSION:4.4.1
+URL:https://ftp.gnu.org/gnu/make/make-4.4.1.tar.gz
+BUILD:./configure --prefix=$PKG_DIR
+INSTALL:make install
+DEPS:

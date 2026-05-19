@@ -1,0 +1,6 @@
+NAME:asciiquarium
+VERSION:1.1
+URL:https://github.com/cmatsuoka/asciiquarium/archive/refs/tags/v1.1.tar.gz
+BUILD:true
+INSTALL:cp asciiquarium $PKG_DIR/bin/
+DEPS:

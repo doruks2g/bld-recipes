@@ -1,0 +1,6 @@
+NAME:tar
+VERSION:1.35
+URL:https://ftp.gnu.org/gnu/tar/tar-1.35.tar.gz
+BUILD:./configure --prefix=$PKG_DIR
+INSTALL:make install
+DEPS:

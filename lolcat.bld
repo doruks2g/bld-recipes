@@ -1,0 +1,6 @@
+NAME:lolcat
+VERSION:master
+URL:https://github.com/jaseg/lolcat/archive/refs/heads/master.tar.gz
+BUILD:make
+INSTALL:make install DESTDIR=$PKG_DIR PREFIX=
+DEPS:

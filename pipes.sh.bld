@@ -1,0 +1,6 @@
+NAME:pipes.sh
+VERSION:master
+URL:https://github.com/pipeseroni/pipes.sh/archive/refs/heads/master.tar.gz
+BUILD:true
+INSTALL:make install PREFIX=$PKG_DIR
+DEPS:

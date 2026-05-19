@@ -1,0 +1,6 @@
+NAME:tty-clock
+VERSION:master
+URL:https://github.com/xorg62/tty-clock/archive/refs/heads/master.tar.gz
+BUILD:make
+INSTALL:make install PREFIX=$PKG_DIR
+DEPS:

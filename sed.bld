@@ -1,0 +1,6 @@
+NAME:sed
+VERSION:4.9
+URL:https://ftp.gnu.org/gnu/sed/sed-4.9.tar.gz
+BUILD:./configure --prefix=$PKG_DIR
+INSTALL:make install
+DEPS:

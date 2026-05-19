@@ -1,0 +1,6 @@
+NAME:patch
+VERSION:2.7.6
+URL:https://ftp.gnu.org/gnu/patch/patch-2.7.6.tar.gz
+BUILD:./configure --prefix=$PKG_DIR
+INSTALL:make install
+DEPS:

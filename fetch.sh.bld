@@ -1,0 +1,6 @@
+NAME:fetch.sh
+VERSION:master
+URL:https://github.com/jekyll/fetch.sh/archive/refs/heads/master.tar.gz
+BUILD:true
+INSTALL:cp fetch.sh $PKG_DIR/bin/
+DEPS:

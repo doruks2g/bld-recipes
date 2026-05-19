@@ -1,0 +1,6 @@
+NAME:ncdu
+VERSION:1.19
+URL:https://gaffer.pt/ncdu/download/ncdu-1.19.tar.gz
+BUILD:./configure --prefix=$PKG_DIR
+INSTALL:make install
+DEPS:

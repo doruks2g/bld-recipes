@@ -1,0 +1,6 @@
+NAME:wget
+VERSION:1.21.4
+URL:https://ftp.gnu.org/gnu/wget/wget-1.21.4.tar.gz
+BUILD:./configure --prefix=$PKG_DIR --with-ssl=openssl
+INSTALL:make install
+DEPS:

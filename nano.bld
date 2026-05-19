@@ -1,0 +1,6 @@
+NAME:nano
+VERSION:8.0
+URL:https://www.nano-editor.org/dist/v8/nano-8.0.tar.gz
+BUILD:./configure --prefix=$PKG_DIR
+INSTALL:make install
+DEPS:

@@ -1,0 +1,6 @@
+NAME:gzip
+VERSION:1.13
+URL:https://ftp.gnu.org/gnu/gzip/gzip-1.13.tar.gz
+BUILD:./configure --prefix=$PKG_DIR
+INSTALL:make install
+DEPS:

@@ -1,0 +1,6 @@
+NAME:figlet
+VERSION:2.2.5
+URL:https://github.com/cmatsuoka/figlet/archive/refs/tags/v2.2.5.tar.gz
+BUILD:make
+INSTALL:make install DESTDIR=$PKG_DIR PREFIX=
+DEPS:
