@@ -1,5 +1,5 @@
 NAME:htop
-VERSION:3.5.1
-URL:https://github.com/htop/htop/archive/refs/tags/3.5.1.tar.gz
+VERSION:3.3.0
+URL:https://github.com/htop-dev/htop/archive/refs/tags/3.3.0.tar.gz
 BUILD:./configure --prefix=$PKG_DIR && make
 INSTALL:make install
