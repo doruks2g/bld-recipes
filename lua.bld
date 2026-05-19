@@ -1,0 +1,6 @@
+NAME:lua
+VERSION:5.4.6
+URL:https://www.lua.org/ftp/lua-5.4.6.tar.gz
+BUILD:make linux
+INSTALL:make install INSTALL_TOP=$PKG_DIR
+DEPS:

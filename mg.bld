@@ -1,0 +1,6 @@
+NAME:mg
+VERSION:20230501
+URL:https://github.com/ibara/mg/archive/refs/tags/mg-20230501.tar.gz
+BUILD:./configure --prefix=$PKG_DIR
+INSTALL:make install
+DEPS:

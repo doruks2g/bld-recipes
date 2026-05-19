@@ -1,0 +1,6 @@
+NAME:moc
+VERSION:2.5.2
+URL:http://ftp.dolda2000.com/pub/moc/moc-2.5.2.tar.bz2
+BUILD:./configure --prefix=$PKG_DIR
+INSTALL:make install
+DEPS:

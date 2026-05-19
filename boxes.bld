@@ -1,0 +1,6 @@
+NAME:boxes
+VERSION:2.3.0
+URL:https://github.com/ascii-boxes/boxes/archive/refs/tags/v2.3.0.tar.gz
+BUILD:make
+INSTALL:cp src/boxes $PKG_DIR/bin/
+DEPS:

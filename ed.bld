@@ -1,0 +1,6 @@
+NAME:ed
+VERSION:1.20
+URL:https://ftp.gnu.org/gnu/ed/ed-1.20.tar.lz
+BUILD:./configure --prefix=$PKG_DIR
+INSTALL:make install
+DEPS:

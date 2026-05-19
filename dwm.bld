@@ -1,0 +1,6 @@
+NAME:dwm
+VERSION:6.5
+URL:https://dl.suckless.org/dwm/dwm-6.5.tar.gz
+BUILD:make
+INSTALL:make install DESTDIR=$PKG_DIR PREFIX=
+DEPS:

@@ -1,0 +1,6 @@
+NAME:mpg123
+VERSION:1.32.6
+URL:https://sourceforge.net/projects/mpg123/files/mpg123/1.32.6/mpg123-1.32.6.tar.bz2
+BUILD:./configure --prefix=$PKG_DIR
+INSTALL:make install
+DEPS:

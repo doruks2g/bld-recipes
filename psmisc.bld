@@ -1,0 +1,6 @@
+NAME:psmisc
+VERSION:23.6
+URL:https://github.com/mirror/psmisc/archive/refs/tags/v23.6.tar.gz
+BUILD:./configure --prefix=$PKG_DIR
+INSTALL:make install
+DEPS:

@@ -1,0 +1,6 @@
+NAME:cmus
+VERSION:2.10.0
+URL:https://github.com/cmus/cmus/archive/refs/tags/v2.10.0.tar.gz
+BUILD:./configure prefix=$PKG_DIR
+INSTALL:make install
+DEPS:

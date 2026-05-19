@@ -1,0 +1,6 @@
+NAME:ncdu2
+VERSION:2.4
+URL:https://dev.yorhel.nl/download/ncdu-2.4.tar.gz
+BUILD:true
+INSTALL:cp ncdu $PKG_DIR/bin/
+DEPS:

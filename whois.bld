@@ -1,0 +1,6 @@
+NAME:whois
+VERSION:5.5.17
+URL:https://github.com/rfc1036/whois/archive/refs/tags/v5.5.17.tar.gz
+BUILD:make
+INSTALL:cp whois $PKG_DIR/bin/
+DEPS:

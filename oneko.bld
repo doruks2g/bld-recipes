@@ -1,0 +1,6 @@
+NAME:oneko
+VERSION:master
+URL:https://github.com/kragen/oneko/archive/refs/heads/master.tar.gz
+BUILD:make
+INSTALL:cp oneko $PKG_DIR/bin/
+DEPS:

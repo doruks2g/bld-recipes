@@ -1,0 +1,6 @@
+NAME:parallel
+VERSION:20240422
+URL:https://ftp.gnu.org/gnu/parallel/parallel-20240422.tar.bz2
+BUILD:./configure --prefix=$PKG_DIR
+INSTALL:make install
+DEPS:

@@ -1,0 +1,6 @@
+NAME:dhex
+VERSION:0.69
+URL:http://www.dettus.net/dhex/dhex_0.69.tar.gz
+BUILD:make
+INSTALL:cp dhex $PKG_DIR/bin/
+DEPS:

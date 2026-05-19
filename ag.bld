@@ -1,0 +1,6 @@
+NAME:ag
+VERSION:2.2.0
+URL:https://github.com/ggreer/the_silver_searcher/archive/refs/tags/2.2.0.tar.gz
+BUILD:./autogen.sh && ./configure --prefix=$PKG_DIR
+INSTALL:make install
+DEPS:

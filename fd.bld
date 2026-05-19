@@ -1,0 +1,6 @@
+NAME:fd
+VERSION:9.0.0
+URL:https://github.com/sharkdp/fd/archive/refs/tags/v9.0.0.tar.gz
+BUILD:true
+INSTALL:cp fd $PKG_DIR/bin/
+DEPS:

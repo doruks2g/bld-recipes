@@ -1,0 +1,6 @@
+NAME:hexcurse
+VERSION:1.60.0
+URL:https://github.com/LonnyGomes/hexcurse/archive/refs/tags/v1.60.0.tar.gz
+BUILD:./configure --prefix=$PKG_DIR
+INSTALL:make install
+DEPS:

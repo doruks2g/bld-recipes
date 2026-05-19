@@ -1,0 +1,6 @@
+NAME:inxi
+VERSION:3.3.34
+URL:https://github.com/smxi/inxi/archive/refs/tags/3.3.34-1.tar.gz
+BUILD:true
+INSTALL:cp inxi $PKG_DIR/bin/
+DEPS:

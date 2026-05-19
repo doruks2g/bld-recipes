@@ -1,0 +1,6 @@
+NAME:sqlite
+VERSION:3.45.3
+URL:https://www.sqlite.org/2024/sqlite-autoconf-3450300.tar.gz
+BUILD:./configure --prefix=$PKG_DIR
+INSTALL:make install
+DEPS:

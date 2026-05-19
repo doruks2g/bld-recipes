@@ -1,0 +1,6 @@
+NAME:acpi
+VERSION:1.7
+URL:https://downloads.sourceforge.net/project/acpiclient/acpiclient/1.7/acpi-1.7.tar.gz
+BUILD:./configure --prefix=$PKG_DIR
+INSTALL:make install
+DEPS:

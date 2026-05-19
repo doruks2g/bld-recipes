@@ -1,0 +1,6 @@
+NAME:units
+VERSION:2.23
+URL:https://ftp.gnu.org/gnu/units/units-2.23.tar.gz
+BUILD:./configure --prefix=$PKG_DIR
+INSTALL:make install
+DEPS:

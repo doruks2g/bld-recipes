@@ -1,0 +1,6 @@
+NAME:readline
+VERSION:8.2
+URL:https://ftp.gnu.org/gnu/readline/readline-8.2.tar.gz
+BUILD:./configure --prefix=$PKG_DIR
+INSTALL:make install
+DEPS:

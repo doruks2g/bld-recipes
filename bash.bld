@@ -1,0 +1,6 @@
+NAME:bash
+VERSION:5.2.21
+URL:https://ftp.gnu.org/gnu/bash/bash-5.2.21.tar.gz
+BUILD:./configure --prefix=$PKG_DIR
+INSTALL:make install
+DEPS:

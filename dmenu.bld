@@ -1,0 +1,6 @@
+NAME:dmenu
+VERSION:5.3
+URL:https://dl.suckless.org/tools/dmenu-5.3.tar.gz
+BUILD:make
+INSTALL:make install DESTDIR=$PKG_DIR PREFIX=
+DEPS:
