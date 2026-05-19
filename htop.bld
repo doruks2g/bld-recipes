@@ -1,5 +1,5 @@
 NAME:htop
-VERSION:3.3.0
-URL:https://github.com/htop-dev/htop/archive/refs/tags/3.3.0.tar.gz
-BUILD:./autogen.sh && 
-INSTALL:make install
+   VERSION:3.3.0
+   URL:https://github.com/htop-dev/htop/releases/download/3.3.0/htop-3.3.0.tar.xz
+   BUILD:./configure --prefix=$PKG_DIR && make
+   INSTALL:make install
