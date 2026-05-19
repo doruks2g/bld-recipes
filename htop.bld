@@ -1,0 +1,5 @@
+NAME:htop
+VERSION:3.3.0
+URL:https://github.com/htop-dev/htop/archive/refs/tags/3.3.0.tar.gz
+BUILD:./configure && make -j$(nproc)
+INSTALL:make install DESTDIR={pkg_dir}
