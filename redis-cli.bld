@@ -1,0 +1,6 @@
+NAME:redis-cli
+VERSION:7.2.4
+URL:https://github.com/redis/redis/archive/refs/tags/7.2.4.tar.gz
+BUILD:make
+INSTALL:cp src/redis-cli $PKG_DIR/bin/
+DEPS:

@@ -3,4 +3,4 @@ VERSION:4.9
 URL:https://github.com/jarun/nnn/archive/refs/tags/v4.9.tar.gz
 BUILD:make
 INSTALL:make install PREFIX=$PKG_DIR
-DEPS:
+DEPS:ncurses,readline
