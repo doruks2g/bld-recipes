@@ -1,0 +1,6 @@
+NAME:links
+VERSION:2.29
+URL:http://links.twibright.com/download/links-2.29.tar.gz
+BUILD:./configure --prefix=$PKG_DIR --with-ssl
+INSTALL:make install
+DEPS:openssl,libjpeg,libpng

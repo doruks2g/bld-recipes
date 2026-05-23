@@ -1,0 +1,6 @@
+NAME:snort
+VERSION:2.9.20
+URL:https://www.snort.org/downloads/snort/snort-2.9.20.tar.gz
+BUILD:./configure --prefix=$PKG_DIR
+INSTALL:make install
+DEPS:libpcap,pcre2,zlib

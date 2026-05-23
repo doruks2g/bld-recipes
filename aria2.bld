@@ -1,0 +1,6 @@
+NAME:aria2
+VERSION:1.37.0
+URL:https://github.com/aria2/aria2/archive/refs/tags/release-1.37.0.tar.gz
+BUILD:autoreconf -i && ./configure --prefix=$PKG_DIR
+INSTALL:make install
+DEPS:openssl,libxml2

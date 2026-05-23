@@ -1,0 +1,6 @@
+NAME:lame
+VERSION:3.100
+URL:https://downloads.sourceforge.net/project/lame/lame/3.100/lame-3.100.tar.gz
+BUILD:./configure --prefix=$PKG_DIR
+INSTALL:make install
+DEPS:

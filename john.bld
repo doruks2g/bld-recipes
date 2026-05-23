@@ -1,0 +1,6 @@
+NAME:john
+VERSION:1.9.0-jumbo-1
+URL:https://github.com/openwall/john/archive/refs/tags/1.9.0-jumbo-1.tar.gz
+BUILD:cd src && ./configure --prefix=$PKG_DIR
+INSTALL:cd src && make install
+DEPS:openssl,zlib

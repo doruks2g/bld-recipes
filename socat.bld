@@ -1,0 +1,6 @@
+NAME:socat
+VERSION:1.8.0.0
+URL:http://www.dest-unreach.org/socat/download/socat-1.8.0.0.tar.gz
+BUILD:./configure --prefix=$PKG_DIR
+INSTALL:make install
+DEPS:openssl,readline

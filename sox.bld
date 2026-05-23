@@ -1,0 +1,6 @@
+NAME:sox
+VERSION:14.4.2
+URL:https://downloads.sourceforge.net/project/sox/sox/14.4.2/sox-14.4.2.tar.gz
+BUILD:./configure --prefix=$PKG_DIR
+INSTALL:make install
+DEPS:alsa-lib,libpng

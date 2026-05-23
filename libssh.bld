@@ -1,0 +1,6 @@
+NAME:libssh
+VERSION:0.10.6
+URL:https://www.libssh.org/files/0.10/libssh-0.10.6.tar.xz
+BUILD:cmake -DCMAKE_INSTALL_PREFIX=$PKG_DIR .
+INSTALL:make install
+DEPS:openssl

@@ -1,0 +1,6 @@
+NAME:hashcat
+VERSION:6.2.6
+URL:https://github.com/hashcat/hashcat/archive/refs/tags/v6.2.6.tar.gz
+BUILD:make
+INSTALL:make install DESTDIR=$PKG_DIR PREFIX=
+DEPS:openssl
