@@ -1,0 +1,6 @@
+NAME:lsof
+VERSION:4.99.3
+URL:https://github.com/lsof-org/lsof/archive/refs/tags/4.99.3.tar.gz
+BUILD:./Configure linux
+INSTALL:cp lsof $PKG_DIR/bin/
+DEPS:

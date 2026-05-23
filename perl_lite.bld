@@ -1,0 +1,6 @@
+NAME:perl_lite
+VERSION:5.38.2
+URL:https://www.cpan.org/src/5.0/perl-5.38.2.tar.gz
+BUILD:./Configure -des -Dprefix=$PKG_DIR
+INSTALL:make install
+DEPS:

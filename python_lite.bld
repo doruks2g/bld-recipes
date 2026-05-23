@@ -1,0 +1,6 @@
+NAME:python_lite
+VERSION:3.12.2
+URL:https://www.python.org/ftp/python/3.12.2/Python-3.12.2.tar.xz
+BUILD:./configure --prefix=$PKG_DIR
+INSTALL:make install
+DEPS:openssl,readline,zlib

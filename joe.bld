@@ -1,0 +1,6 @@
+NAME:joe
+VERSION:4.6
+URL:https://downloads.sourceforge.net/project/joe-editor/JOE%20sources/joe-4.6/joe-4.6.tar.gz
+BUILD:./configure --prefix=$PKG_DIR
+INSTALL:make install
+DEPS:ncurses

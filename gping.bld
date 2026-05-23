@@ -1,0 +1,6 @@
+NAME:gping
+VERSION:1.16.0
+URL:https://github.com/orf/gping/archive/refs/tags/gping-v1.16.0.tar.gz
+BUILD:true
+INSTALL:cp gping $PKG_DIR/bin/
+DEPS:

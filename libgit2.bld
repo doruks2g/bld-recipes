@@ -1,0 +1,6 @@
+NAME:libgit2
+VERSION:1.7.2
+URL:https://github.com/libgit2/libgit2/archive/refs/tags/v1.7.2.tar.gz
+BUILD:mkdir build && cd build && cmake -DCMAKE_INSTALL_PREFIX=$PKG_DIR ..
+INSTALL:cd build && make install
+DEPS:openssl,zlib

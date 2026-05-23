@@ -1,0 +1,6 @@
+NAME:glances
+VERSION:3.4.0.3
+URL:https://github.com/nicolargo/glances/archive/refs/tags/v3.4.0.3.tar.gz
+BUILD:true
+INSTALL:python3 setup.py install --prefix=$PKG_DIR
+DEPS:

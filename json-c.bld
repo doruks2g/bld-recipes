@@ -1,0 +1,6 @@
+NAME:json-c
+VERSION:0.17
+URL:https://github.com/json-c/json-c/archive/refs/tags/json-c-0.17-20230812.tar.gz
+BUILD:mkdir build && cd build && cmake -DCMAKE_INSTALL_PREFIX=$PKG_DIR ..
+INSTALL:cd build && make install
+DEPS:

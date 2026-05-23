@@ -1,0 +1,6 @@
+NAME:hping3
+VERSION:master
+URL:https://github.com/antirez/hping/archive/refs/heads/master.tar.gz
+BUILD:./configure
+INSTALL:make install DESTDIR=$PKG_DIR
+DEPS:libpcap

@@ -1,0 +1,6 @@
+NAME:ffmpeg_lite
+VERSION:6.1.1
+URL:https://ffmpeg.org/releases/ffmpeg-6.1.1.tar.xz
+BUILD:./configure --prefix=$PKG_DIR --disable-x86asm
+INSTALL:make install
+DEPS:zlib,openssl

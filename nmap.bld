@@ -3,4 +3,4 @@ VERSION:7.94
 URL:https://nmap.org/dist/nmap-7.94.tar.bz2
 BUILD:./configure --prefix=$PKG_DIR
 INSTALL:make install
-DEPS:
+DEPS:openssl,libpcap

@@ -1,0 +1,6 @@
+NAME:dust
+VERSION:0.8.6
+URL:https://github.com/bootandy/dust/archive/refs/tags/v0.8.6.tar.gz
+BUILD:true
+INSTALL:cp dust $PKG_DIR/bin/
+DEPS:

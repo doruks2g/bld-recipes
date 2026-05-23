@@ -3,4 +3,4 @@ VERSION:4.99.4
 URL:https://www.tcpdump.org/release/tcpdump-4.99.4.tar.gz
 BUILD:./configure --prefix=$PKG_DIR
 INSTALL:make install
-DEPS:
+DEPS:libpcap

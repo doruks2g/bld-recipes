@@ -1,0 +1,6 @@
+NAME:ruby_lite
+VERSION:3.3.0
+URL:https://cache.ruby-lang.org/pub/ruby/3.3/ruby-3.3.0.tar.gz
+BUILD:./configure --prefix=$PKG_DIR
+INSTALL:make install
+DEPS:openssl,readline,zlib

@@ -1,0 +1,6 @@
+NAME:libssh2
+VERSION:1.11.0
+URL:https://www.libssh2.org/download/libssh2-1.11.0.tar.gz
+BUILD:./configure --prefix=$PKG_DIR
+INSTALL:make install
+DEPS:openssl

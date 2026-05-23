@@ -3,4 +3,4 @@ VERSION:3.16
 URL:https://github.com/esnet/iperf/archive/refs/tags/3.16.tar.gz
 BUILD:./configure --prefix=$PKG_DIR
 INSTALL:make install
-DEPS:
+DEPS:openssl

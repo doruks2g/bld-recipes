@@ -1,0 +1,6 @@
+NAME:vifm
+VERSION:0.13
+URL:https://github.com/vifm/vifm/archive/refs/tags/v0.13.tar.gz
+BUILD:./configure --prefix=$PKG_DIR
+INSTALL:make install
+DEPS:ncurses

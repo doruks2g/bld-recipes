@@ -1,0 +1,6 @@
+NAME:tcl
+VERSION:8.6.14
+URL:https://downloads.sourceforge.net/project/tcl/Tcl/8.6.14/tcl8.6.14-src.tar.gz
+BUILD:cd unix && ./configure --prefix=$PKG_DIR
+INSTALL:cd unix && make install
+DEPS:
