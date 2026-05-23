@@ -1,0 +1,6 @@
+NAME:nasm
+VERSION:2.16.01
+URL:https://www.nasm.us/pub/nasm/releasebuilds/2.16.01/nasm-2.16.01.tar.xz
+BUILD:./configure --prefix=$PKG_DIR
+INSTALL:make install
+DEPS:

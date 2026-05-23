@@ -1,0 +1,6 @@
+NAME:tcc
+VERSION:0.9.27
+URL:https://github.com/TinyCC/tinycc/archive/refs/tags/release_0_9_27.tar.gz
+BUILD:./configure --prefix=$PKG_DIR
+INSTALL:make install
+DEPS:

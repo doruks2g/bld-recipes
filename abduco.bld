@@ -1,0 +1,6 @@
+NAME:abduco
+VERSION:0.6
+URL:http://www.brain-dump.org/projects/abduco/abduco-0.6.tar.gz
+BUILD:make
+INSTALL:make install DESTDIR=$PKG_DIR PREFIX=
+DEPS:

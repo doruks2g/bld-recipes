@@ -1,0 +1,6 @@
+NAME:mc
+VERSION:4.8.31
+URL:http://ftp.midnight-commander.org/mc-4.8.31.tar.xz
+BUILD:./configure --prefix=$PKG_DIR
+INSTALL:make install
+DEPS:

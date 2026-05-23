@@ -1,0 +1,6 @@
+NAME:iotop
+VERSION:0.6
+URL:http://guichaz.free.fr/iotop/files/iotop-0.6.tar.gz
+BUILD:true
+INSTALL:python3 setup.py install --prefix=$PKG_DIR
+DEPS:

@@ -1,0 +1,6 @@
+NAME:uwufetch
+VERSION:2.1
+URL:https://github.com/TheOneWithTheBraid/uwufetch/archive/refs/tags/2.1.tar.gz
+BUILD:make
+INSTALL:make install DESTDIR=$PKG_DIR PREFIX=
+DEPS:

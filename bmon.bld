@@ -1,0 +1,6 @@
+NAME:bmon
+VERSION:4.0
+URL:https://github.com/tgraf/bmon/archive/refs/tags/v4.0.tar.gz
+BUILD:./configure --prefix=$PKG_DIR
+INSTALL:make install
+DEPS:

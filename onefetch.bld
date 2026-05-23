@@ -1,0 +1,6 @@
+NAME:onefetch
+VERSION:2.19.0
+URL:https://github.com/o2sh/onefetch/archive/refs/tags/2.19.0.tar.gz
+BUILD:make
+INSTALL:cp target/release/onefetch $PKG_DIR/bin/
+DEPS:

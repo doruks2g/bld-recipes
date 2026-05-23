@@ -1,0 +1,6 @@
+NAME:gdb
+VERSION:14.1
+URL:https://ftp.gnu.org/gnu/gdb/gdb-14.1.tar.xz
+BUILD:./configure --prefix=$PKG_DIR
+INSTALL:make install
+DEPS:

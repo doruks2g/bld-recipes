@@ -1,0 +1,6 @@
+NAME:stress-ng
+VERSION:0.17.05
+URL:https://github.com/ColinIanKing/stress-ng/archive/refs/tags/V0.17.05.tar.gz
+BUILD:make
+INSTALL:make install DESTDIR=$PKG_DIR PREFIX=
+DEPS:

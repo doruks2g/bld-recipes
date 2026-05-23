@@ -1,0 +1,6 @@
+NAME:vis
+VERSION:0.8
+URL:https://github.com/martanne/vis/archive/refs/tags/v0.8.tar.gz
+BUILD:./configure --prefix=$PKG_DIR
+INSTALL:make install
+DEPS:

@@ -1,0 +1,6 @@
+NAME:ltrace
+VERSION:0.7.3
+URL:https://github.com/dkogan/ltrace/archive/refs/tags/0.7.3.tar.gz
+BUILD:./autogen.sh && ./configure --prefix=$PKG_DIR
+INSTALL:make install
+DEPS:
